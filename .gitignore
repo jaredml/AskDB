@@ -1,0 +1,74 @@
+# Environment variables
+.env
+*.env
+!.env.example
+
+# Connection Manager (IMPORTANT - Contains encrypted credentials!)
+connections.enc
+.connection_key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Cache
+.db_metadata_cache.pkl
+*.pkl
+*.cache
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Test coverage
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Generated files
+database_metadata.json
+database_schema.txt
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Backup files
+*.backup
+*.bak
+*~
